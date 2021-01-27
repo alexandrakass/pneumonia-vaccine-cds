@@ -1,0 +1,62 @@
+
+.modal-style{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: 'translate(-50%, -50%)';
+  background: #FFF;
+  padding: 200px;
+  z-index: 1000;
+}
+
+.overlay-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .7);
+  z-index: 1000;
+}
+
+
+.parent-btn {
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.inline-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding: 10;
+  
+}
+
+.close-btn {
+  line-height: 12px;
+  width: 18px;
+  font-size: 8pt;
+  font-family: tahoma;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  padding: 5px;
+}
+
+.yes-btn {
+  position: 'center';
+  top: 0;
+  float: 'right';
+  display: 'inline';
+}
+
+.no-btn {
+  position: 'center';
+  top:0px;
+  float: 'left';
+  display: 'inline';
+}
+
